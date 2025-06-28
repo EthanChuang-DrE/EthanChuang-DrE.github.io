@@ -1,0 +1,54 @@
+https://JaneChuang.github.io/my-html-project/
+
+
+以下是如何使用 **GitHub Pages** 部署你的 HTML、CSS 和 JavaScript 檔案的逐步教學，讓別人可以連結到你的 HTML 頁面來使用它的功能：
+
+---
+
+### **步驟 1: 建立 GitHub 帳號**
+如果你還沒有 GitHub 帳號，請先到 [GitHub官網](https://github.com/) 註冊一個帳號。這是必須的，因為 GitHub Pages 是基於 GitHub 的服務。
+
+---
+
+### **步驟 2: 新建一個 GitHub 儲存庫 (Repository)**
+1. **登入 GitHub。**
+2. **點擊右上角的加號 (+)**，選擇 **"New repository"**。
+3. **輸入儲存庫名稱：**
+   - 名稱可以隨意，例如 `my-html-project`。
+4. 選擇 **"Public"** (公開)，確保其他人可以訪問。
+5. 勾選 **"Add a README file"** (新增 README 檔案)。
+6. 點擊 **"Create repository"**。
+
+---
+
+### **步驟 3: 上傳你的 HTML、CSS 和 JavaScript 檔案**
+1. 在你的儲存庫主頁面上，點擊 **"Add file"** → **"Upload files"**。
+2. 拖曳或選擇你的 HTML、CSS 和 JavaScript 檔案。
+   - 確保 **HTML 檔案的名稱是 `index.html`**，因為 GitHub Pages 預設會以 `index.html` 作為入口頁面。
+3. 上傳完成後，點擊 **"Commit changes"** (提交變更)。
+
+---
+
+### **步驟 4: 啟用 GitHub Pages**
+1. 前往儲存庫的 **"Settings"**（設定）。
+2. 在左側欄中，滾動找到 **"Pages"** (頁面)。
+3. 在 **"Source"** 下拉選單中，選擇 **"main" 分支** (或者是包含你的檔案的分支)，然後確保分支的資料夾是根目錄 (root)。
+4. 點擊 **"Save"** 按鈕。
+5. 設定完成後，GitHub 會自動生成你的網站連結，顯示在 **"GitHub Pages"** 區域，通常格式為：
+   ```
+   https://JaneChuang.github.io/my-html-project/
+   ```
+
+---
+
+### **步驟 5: 測試你的網站**
+1. 點擊 GitHub Pages 提供的連結 (通常需要幾分鐘才能部署完成)。
+2. 你的網站現在就能訪問並使用 HTML/CSS/JavaScript 的功能了！
+
+---
+
+### **進一步提示**
+1. **更新內容：**
+   - 若需修改檔案，可直接透過 **"Upload files"** 或在本地修改後使用 **Git 命令** 推送更新 (`git push`)。
+2. **檢查問題：**
+   - 若網站無法顯示，確認檔案中是否包含有效的 `index.html`，且 HTML 連結的 CSS 和 JavaScript 路徑正確。
